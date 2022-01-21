@@ -1,0 +1,28 @@
+// Color variables
+$white: #ffffff;
+$dark: #0a1832;
+$muted: #707070;
+
+$primary: #0f9cf3;
+$success: #6fd088;
+$info: #0097a7;
+$warning: #ffbb44;
+$danger: #f32f53;
+
+$bg-body: #eff3f6;
+$bg-topbar: #424858;
+
+$font-primary: "Montserrat", sans-serif;
+$base-font: 1.5rem;
+
+//------SOMBRAS-----------------
+$shadow: 1px 0px 20px rgba(0, 0, 0, 0.05);
+$bg-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+//------BREAKPOINT-----------------
+$breakpoint-xs: 360px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;

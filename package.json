@@ -1,0 +1,21 @@
+{
+  "name": "maquetacion-responsive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build_CSS",
+    "build:minify": "gulp build_minifyCSS",
+    "watch": "gulp watch_CSS"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.0"
+  }
+}
