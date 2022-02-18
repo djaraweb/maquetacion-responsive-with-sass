@@ -1,0 +1,33 @@
+.desktop-menu {
+  width: 130px;
+  height: auto;
+  border: 1px solid $very-light-pink;
+  border-radius: 6px;
+  padding: 20px 20px 0 20px;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul li {
+    text-align: end;
+  }
+  ul li:nth-child(1),
+  ul li:nth-child(2) {
+    font-weight: bold;
+  }
+  ul li:last-child {
+    padding-top: 20px;
+    border-top: 1px solid $very-light-pink;
+  }
+  ul li:last-child a {
+    color: $hospital-green;
+    font-size: var(--sm);
+  }
+  ul li a {
+    color: $black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+}

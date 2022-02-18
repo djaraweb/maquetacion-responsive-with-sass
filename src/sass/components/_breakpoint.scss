@@ -6,6 +6,61 @@
   // tablet: $breakpoint-md: 768px;
 }
 
-@media (min-width: $breakpoint-xs) {
+@media (max-width: $breakpoint-xs) {
   // Phone: $breakpoint-xs: 360px;
+  .logo {
+    display: block;
+  }
+  .secondary-button {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 24px;
+  }
+
+  .form-container {
+    height: 100%;
+  }
+
+  .form {
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  // Home
+
+  .cards-container {
+    grid-template-columns: repeat(auto-fill, 140px);
+  }
+  .product-card {
+    width: 140px;
+  }
+  .product-card img {
+    width: 140px;
+    height: 140px;
+  }
+
+  // Navbar
+  .menu {
+    display: block;
+  }
+  .navbar-left ul {
+    display: none;
+  }
+  .navbar-email {
+    display: none;
+  }
+
+  // Product
+  .product-detail {
+    width: 100%;
+  }
+
+  .shoping-cart-detail {
+    width: 100%;
+  }
+
+  body {
+    background: yellow;
+  }
 }
